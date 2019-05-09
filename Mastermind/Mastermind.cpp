@@ -36,7 +36,8 @@ int main(){
 	Key_Peg kp = Key_Peg(); 
 
 	gp.makeCode(kp);
-	
+	std::cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
+
 	sf::RenderWindow window(sf::VideoMode(w, h), "Mastermind");
 
 	sf::Texture t1, t2, t3, t4, t5, t6, t7, t8, t9;
